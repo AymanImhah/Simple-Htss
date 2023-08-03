@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <link rel="stylesheet" href="../css/countdown.css"/>
+    <title>Hello</title>
+    <script src="../../countdown.js"></script>
+</head>
+
+
+<body>
+<nav class="navigation-bar">
+    <ul class="navigation-list">
+        <li class="navigation-el"><a href="countdown.html"></a>Countdown</li>
+        <li class="navigation-el"> <a href="todo.html"> ToDoList</a></li>
+    </ul>
+</nav>
+<h1>Countdown : </h1>
+<div class="countdown-timer">
+
+    <div class="countdown-el days-c">
+        <button class="buttons plus" >+</button>
+        <div class="number" id="days" contenteditable=true>00</div>
+        <span>days</span>
+        <button class="buttons minus" >-</button>
+    </div>
+    <div class="countdown-el hours-c">
+        <button class="buttons plus" >+</button>
+        <div class="number" id="hours" contenteditable=true>00</div>
+        <span>hours</span>
+        <button class="buttons minus" >-</button>
+    </div>
+    <div class="countdown-el minutes-c">
+        <button class="buttons plus" >+</button>
+        <div class="number" id="minutes" contenteditable=true>00</div>
+        <span>minutes</span>
+        <button class="buttons minus" >-</button>
+    </div>
+    <div class="countdown-el seconds-o">
+        <button class="buttons plus" >+</button>
+        <div class="number" id="seconds" contenteditable=true>00</div>
+        <span>seconds</span>
+        <button class="buttons minus" >-</button>
+    </div>
+    <button class="buttons reset">Reset</button>
+</div>
+
+<button class="buttons start-countdown"> Start </button>
+<button class="buttons stop-countdown"> Stop </button>
+</body>
+</html>
